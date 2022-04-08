@@ -11,7 +11,7 @@ author: Adrián Isidoro Álvarez
 
 Crearemos un directorio **saludo** con el comando `mkdir`, y en su interior creamos un fichero **index.html** y lo editamos con `nano`:
 
-![](/Ejercicio 2/ejercicio2.assets/index.PNG)
+![](/ejercicio2.assets/index.PNG)
 
 Arrancamos dos contenedores basados en la imagen php:7.4-apache haciendo un bind mount de la carpeta saludo en la carpeta /var/www/html de cada contenedor. Utilizaremos los puertos que nos indica el enunciado y sus nombres serán c1 y c2:
 
